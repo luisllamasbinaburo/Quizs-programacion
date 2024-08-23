@@ -1,8 +1,3 @@
-¿Qué es un shield?
-- Una placa de expansión
-- Un diodo de protección
-- Un código de seguridad
-
 ¿Qué es I2C?
 - Un protocolo de comunicación
 - Un tipo de sensor
@@ -39,32 +34,22 @@
 - Un sistema de protección de pines
 
 ¿Qué es un potenciómetro?
-- Un resistor variable
+- Una resistencia variable
 - Un tipo de transistor
 - Un capacitor
 
 ¿Qué es un MOSFET?
 - Un transistor de efecto de campo
-- Un tipo de resistor
+- Un tipo de resistencia
 - Un generador de señales
-
-¿Qué es una biblioteca en el entorno de Arduino?
-- Un conjunto de funciones y herramientas
-- Un archivo de configuración
-- Un módulo de expansión
 
 ¿Qué es un relé en electrónica?
 - Un interruptor controlado eléctricamente
 - Un tipo de sensor
 - Un sinónimo de condensador
 
-¿Qué hace la función `digitalRead()`?
-- Lee el valor de un pin digital
-- Escribe un valor en un pin digital
-- Lee un valor analógico
-
 ¿Qué es un LDR?
-- Un resistor dependiente de la luz
+- Un sensor de luz
 - Un motor de corriente continua
 - Un tipo de transistor
 
@@ -81,7 +66,7 @@
 ¿Qué es un LED?
 - Un diodo que emite luz
 - Un transistor de efecto de campo
-- Un resistor variable
+- Un resistencia variable
 
 ¿Qué hace la función `tone()`?
 - Genera una señal de sonido a una frecuencia
@@ -89,13 +74,13 @@
 - Medir la temperatura
 
 ¿Qué es un sensor de ultrasonido?
-- Un sensor que mide distancia
+- Un sensor de distancia
 - Un sensor de temperatura
 - Un sensor de luz
 
 ¿Qué es una resistencia pull-up?
-- Una resistencia que conecta un pin a un voltaje positivo
-- Una resistencia que conecta un pin a tierra
+- Una resistencia que conecta un pin a Vcc
+- Una resistencia que conecta un pin a Gnd
 - Una resistencia que limita la corriente
 
 ¿Qué hace la función `Serialbegin()`?
@@ -103,18 +88,13 @@
 - Configura el pin como entrada
 - Lee un valor analógico
 
-¿Qué es un transistor NPN en un circuito Arduino?
-- Un tipo de transistor que permite la conducción cuando la base es positiva
-- Un tipo de transistor que permite la conducción cuando la base es negativa
-- Un tipo de transistor que nunca permite la conducción
-
 ¿Qué hace un condensador en un circuito?
-- Almacena energía en forma de carga eléctrica
+- Almacena energía
 - Limita la corriente
 - Aumenta el voltaje
 
 ¿Qué es un sensor de temperatura LM35?
-- Un sensor que mide la temperatura en grados Celsius
+- Un sensor que mide temperatura
 - Un sensor de humedad
 - Un potenciómetro
 
@@ -159,7 +139,7 @@
 - Enciende un LED en el pin especificado
 
 ¿Qué función tiene el `delay()`?
-- Pausar la ejecución del código por un tiempo determinado
+- Pausar la ejecución del código por un tiempo
 - Leer un valor del sensor
 - Configurar la comunicación serial
 
@@ -177,11 +157,6 @@
 - Permite ejecutar una función en respuesta a una interrupción externa
 - Configura el pin para la lectura analógica
 - Establece la velocidad de la comunicación serial
-
-¿Qué es un shield en el contexto de Arduino?
-- Una placa de expansión
-- Un módulo que controla el brillo del LED
-- Un componente para medir la resistencia
 
 ¿Qué tipo de señal se puede generar con la función `tone()`?
 - Una señal de audio en un pin
@@ -233,7 +208,7 @@
 - Una técnica para medir la resistencia
 - Un método para aumentar la frecuencia de un temporizador
 
-¿Qué librería se usa para gestionar comunicaciones en serie en un Arduino Uno?
+¿Qué librería se usa para gestionar comunicaciones en serie sin UART?
 - SoftwareSerial
 - Ethernet
 - SD
@@ -252,3 +227,128 @@
 - Lee un byte de la memoria EEPROM
 - Escribe un byte en la memoria EEPROM
 - Borra un byte de la memoria EEPROM
+
+¿Qué es un protocolo UART?
+- Un protocolo de comunicación serial
+- Un sensor ultrasónico
+- Un convertidor analógico a digital
+
+¿Qué significa PWM?
+- Modulación por Ancho de Pulso
+- Modulación de Fase
+- Modulación de Frecuencia
+
+¿Qué tipo de módulo se usa para recibir señales de GPS?
+- Módulo GPS
+- Módulo GSM
+- Módulo Bluetooth
+
+¿Cuál es el propósito de un resistor pull-up en un circuito Arduino?
+- Mantener el pin en un estado alto cuando no está conectado
+- Limitar la corriente a un LED
+- Aumentar la velocidad de comunicación serial
+
+¿Qué hace la función `EEPROM.put()`?
+- Escribe un valor en la memoria EEPROM
+- Lee un valor de un pin analógico
+- Configura un pin como salida
+
+¿Qué librería de Arduino se usa para controlar pantallas LCD con interfaz I2C?
+- Wire
+- LiquidCrystal
+- Servo
+
+¿Qué librería se usa para implementar comunicación entre Arduino y un módulo de radio de 433 MHz?
+- RadioHead
+- Servo
+- SPI
+
+¿Qué hace la función `pulseIn()` en un programa de Arduino?
+- Mide la duración de un pulso en un pin
+- Envía un pulso de salida a un pin
+- Configura un pin como entrada o salida
+
+¿Qué es un "RTC" en el contexto de Arduino y para qué se usa?
+- Un reloj en tiempo real que mantiene la hora y la fecha
+- Un componente para medir la resistencia
+- Un sensor de temperatura
+
+¿Qué es un "módulo de expansión I2C" y cómo se usa con Arduino?
+- Un dispositivo que permite conectar múltiples componentes I2C a un solo bus
+- Un módulo que amplifica las señales de comunicación
+- Un componente para aumentar la capacidad de procesamiento
+
+¿Qué librería de Arduino permite la implementación de comunicaciones de red mediante TCP/IP?
+- `Ethernet`
+- `WiFi101`
+- `HttpClient`
+
+¿Qué hace un conversor DAC en un circuito Arduino?
+- Convierte señales digitales a analógicas
+- Convierte señales analógicas a digitales
+- Amplifica señales de voltaje
+
+¿Qué tipo de memoria es la EEPROM?
+- Una memoria no volátil que puede ser leída y escrita
+- Una memoria volátil que se borra al apagar la placa
+- Una memoria solo de lectura
+
+¿Qué hace la función `millis()`?
+- Devuelve el número de milisegundos desde que la placa comenzó a ejecutar el programa
+- Pausa la ejecución por un número específico de milisegundos
+- Devuelve el tiempo total de ejecución del programa
+
+¿Qué tipo de variable en Arduino es más eficiente en términos de uso de memoria?
+- `byte`
+- `int`
+- `long`
+
+¿Qué ocurriría si intentas programar un Arduino con un bootloader corrupto?
+- El Arduino no podrá ser programado
+- El Arduino ejecutará el programa anterior
+- El Arduino se reiniciará constantemente
+
+¿Cuál es la principal ventaja de utilizar la comunicación SPI en comparación con I2C?
+- Mayor velocidad de transmisión de datos
+- Menor cantidad de cables necesarios
+- Mayor compatibilidad con dispositivos
+
+¿Cuál es la función principal de la resistencia pull-up en un pin de entrada de Arduino?
+- Mantener el pin en un estado alto cuando no está conectado
+- Proteger el pin contra sobretensiones
+- Reducir la corriente en el circuito
+
+¿Cómo se puede medir el consumo de corriente de un Arduino?
+- Insertando un amperímetro en serie con la alimentación
+- Usando `analogRead` en un pin específico
+- Configurando un pin como entrada y midiendo su voltaje
+
+¿Qué pasa si se conecta un motor directamente a un pin de salida de un Arduino sin un driver de motor?
+- El pin de salida podría dañarse
+- El motor funcionará a baja velocidad
+- El Arduino ajustará la corriente
+
+¿Qué ocurre si se intenta comunicar dos Arduinos a través de UART sin conectar sus masas (GND)?
+- La comunicación puede fallar
+- La comunicación se realizará a menor velocidad
+- La comunicación funcionará
+
+¿Cuántos pines digitales tiene un Arduino Uno?
+- 14
+- 6
+- 10
+
+¿Cuál es la capacidad de almacenamiento de un Arduino Uno?
+- 32 KB de memoria flash
+- 64 KB de memoria RAM
+- 1 MB de memoria EEPROM
+
+¿Qué ocurre si se conectan varios dispositivos I2C con direcciones iguales al mismo bus?
+- Se producirán conflictos de comunicación y errores en la lectura/escritura
+- El Arduino cambiará automáticamente las direcciones para evitar conflictos
+- Los dispositivos se sincronizarán automáticamente
+
+¿Qué ocurre si se utiliza una resistencia pull-down en lugar de una pull-up para un botón conectado a un pin de entrada?
+- El estado del pin será inverso al esperado
+- El botón no funcionará en absoluto
+- Dañaremos el pin
